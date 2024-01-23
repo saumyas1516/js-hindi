@@ -16,3 +16,8 @@ console.log(ans)
 let value = 3
 let negvalue = -value
 console.log(negvalue)
+
+console.log(2 + "2");
+console.log(2+"2"+"2");
+console.log("3"+2);
+console.log(2+2+"3"+"3")
