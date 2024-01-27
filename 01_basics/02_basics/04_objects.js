@@ -33,3 +33,15 @@ console.log(Object.keys(user));
 console.log(Object.values(user));
 console.log(Object.entries(user));
 console.log(user.hasOwnProperty("address"));
+
+
+
+// destructuring
+
+let course = {
+    name:"somu",
+    id:123,
+    add:"azamgarh"
+}
+let {add:address} = course
+console.log(address);
